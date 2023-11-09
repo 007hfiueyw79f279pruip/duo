@@ -8,7 +8,6 @@ while(contador<listaDeTeclas.length){
     const efeito = listaDeTeclas[contador].classList[1];
     const idAudio = "#som_"+efeito;
     listaDeTeclas[contador].onlick = function(){
-        tocaSom("#som_tecla_aplausos");
         tocaSom(idAudio)
     }
     contador = contador + 1
